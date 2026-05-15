@@ -100,19 +100,6 @@ LPIPS uses a pretrained AlexNet backbone with no additional training. If LPIPS i
 
 ---
 
-## Project Structure
-
-```
-Implementierung/
-├── main.c              # Entry point, CLI parsing, benchmarking
-├── gamma.c             # V0 baseline + V1 LUT + V2 multithreaded implementations
-├── validate.py         # Python validation pipeline
-├── gamma_reference.py  # NumPy ground truth generator
-├── cnn_perceptual.py   # LPIPS / SSIM perceptual similarity
-└── Makefile
-```
-
----
 
 ## Notes
 
